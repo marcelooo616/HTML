@@ -72,6 +72,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
+    margin-top: 100px;
     
 }
 
@@ -112,6 +113,10 @@ box-shadow: 3px 3px 10px 3px #c679fc;
 
 .hard {
     background-color: aqua;
+}
+
+.menu{
+    background-color: #c679fc;
 }
 
 
