@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.bg {
+    background-image: url('../utils/Galaxia-scaled.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 50px 100px;
+    margin-top: -50px;
+    width: 100vw;
+
+}

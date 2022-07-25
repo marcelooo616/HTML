@@ -1,0 +1,41 @@
+.container-hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 30px 30px 10px 10px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;  
+    border-style:inset ;
+    border-style:groove ;
+    border-width: 10px;
+
+    
+    
+}
+
+.container-hobbies h2{
+    color: black;
+    display: flex ;
+    flex-wrap: wrap;
+    background-color: #c679fc;
+    border-radius: 0px 0px 30px 30px;
+    width: 500px;
+    justify-content: center;
+    -webkit-box-shadow: 3px 3px 10px 3px #000000;
+    -moz-box-shadow: 3px 3px 10px 3px rgb(11, 2, 17);
+    box-shadow: 3px 3px 10px 3px rgb(8, 7, 8);
+}
+.container-hobbies p{
+    color: black;
+}
+
+.container-hobbies img{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 200px;
+    -webkit-box-shadow: 3px 3px 10px 3px #c679fc;
+    -moz-box-shadow: 3px 3px 10px 3px #c679fc;
+    box-shadow: 3px 3px 10px 3px #c679fc;
+    
+}

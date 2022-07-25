@@ -4,13 +4,16 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600&family=Rubik+Mono+One&display=swap"rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik+Mono+One&display=swap"rel="stylesheet">
     <link href="css/home.css" rel="stylesheet" />
     <link href="css/homeBg.css" rel="stylesheet" />
-    <link href="css/menu.css" rel="stylesheet"/>
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/perfil.css" rel="stylesheet" />
+    <link href="css/hobbies.css" rel="stylesheet" />
+    <link href="css/hardSkills.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,200 +23,143 @@
 
 <body class="bg">
 
-<div class="menu">
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
-       </ul>
-</div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
 
-  
-    
-<div 
-class="container-cubo">
-    <div>
-        <div class="spinner">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      
-      <style>
-      .spinner {
-         width: 44.8px;
-         height: 44.8px;
-         animation: spinner-y0fdc1 2s infinite ease;
-         transform-style: preserve-3d;
-      }
-      
-      .spinner > div {
-         background-color: rgba(255, 0, 132, 0.2);
-         height: 100%;
-         position: absolute;
-         width: 100%;
-         border: 2.2px solid #474bff;
-      }
-      
-      .spinner div:nth-of-type(1) {
-         transform: translateZ(-22.4px) rotateY(180deg);
-      }
-      
-      .spinner div:nth-of-type(2) {
-         transform: rotateY(-270deg) translateX(50%);
-         transform-origin: top right;
-      }
-      
-      .spinner div:nth-of-type(3) {
-         transform: rotateY(270deg) translateX(-50%);
-         transform-origin: center left;
-      }
-      
-      .spinner div:nth-of-type(4) {
-         transform: rotateX(90deg) translateY(-50%);
-         transform-origin: top center;
-      }
-      
-      .spinner div:nth-of-type(5) {
-         transform: rotateX(-90deg) translateY(50%);
-         transform-origin: bottom center;
-      }
-      
-      .spinner div:nth-of-type(6) {
-         transform: translateZ(22.4px);
-      }
-      
-      @keyframes spinner-y0fdc1 {
-         0% {
-            transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
-         }
-      
-         50% {
-            transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
-         }
-      
-         100% {
-            transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
-         }
-      }
-      </style>
-      </div>
-<div class="titulo-ti">
-    
+
+
+
+    <div class="titulo-ti">
+
         <h1 class="titulo">Ola! sou o Marcelo</h1>
-    </div>
-    </div>
-    <div>
-        <h2 class="subtitulo"></h2>
-    </div>
-
-    <div>
-        <p class="texto">
-            Sou apaixonado por tecnologia, com um
-            forte senso de trabalho em equipe, posso contribuir com soft Skills como Proatividade, Persistência,
-            Responsabilidade pessoal, estando sempre em constante evolução busco aprender novas tecnologias para me
-            tornar um profissional fora da curva, participando do bootcamp da Generation procuro evoluir como
-            Desenvolvedor
-            web FullStack com foco em Java, HTML, CSS, Javascript, MySQL, Spring boot, React e poder contribui ainda
-            mais,
-            dito isso estar em um ambiente que valorize o desenvolvimento
-            pessoal/profissional e de suma importância para mim, desde já obrigado por chegar até aqui.
-        </p>
-    </div>
 
     </div>
 
-    <div>
-        <h2 class="subtitulo">O que eu faço para me divertir?</h2>
-    </div>
+    <div class="container-perfil">
 
-    <div>
-        <p class="texto">
+        <div class="perfil">
 
-            Uma da coisa que faço para me divertir e estudar Musica, a musica para mim, e de grande importancia, ja que
-            ela
-            me alxiliou
-            na superação de uma faze dificil da minha vida, atualmente eu estudo contra baixo e teclado, mas no futuo
-            pretendo aprender outros
-            instrumentos, nos momento em que, nao estou estudando musica, gosto muito de desenhar,ver um seria e jogar
-            video
-            game, ou so ficar procrastinando no youtube.
-        </p>
-    </div>
-    
-     
+            <img src="./utils/1654518712731.jfif" />
 
-    <div class="container-foto">
+        </div>
 
-        <div class="bass"><img src="./utils/bass.jpg"></div>
-        <div class="teclado"><img src="./utils/teclado.jpg"></div>
-        <div class="desenho"><img src="./utils/desenho.jpg"></div> 
-        
-    </div>
+        <div class="texto">
 
-    </div>
+            <p>
+                Sou apaixonado por tecnologia, com um
+                forte senso de trabalho em equipe, posso contribuir com soft Skills como Proatividade, Persistência,
+                Responsabilidade pessoal, estando sempre em constante evolução busco aprender novas tecnologias para me
+                tornar um profissional fora da curva, participando do bootcamp da Generation procuro evoluir como
+                Desenvolvedor
+                web FullStack com foco em Java, HTML, CSS, Javascript, MySQL, Spring boot, React e poder contribui ainda
+                mais,
+                dito isso estar em um ambiente que valorize o desenvolvimento
+                pessoal/profissional e de suma importância para mim, desde já obrigado por chegar até aqui.
+            </p>
 
-    
-        <div class="container-Video">
-
-            <h2 class="subtitulo">Um pouco da minha habilidade na musica!</h2>
-
-                
-                    <video controls >
-                        <source src="./utils/video.mp4" type="video/mp4">
-                    </video>
-                
-        
         </div>
 
     </div>
 
+    <div class="container-hobbies">
+
+        <div>
+            <h2 class="subtitulo">O que eu faço para me divertir?</h2>
+        </div>
+
+        <div>
+            <p class="texto">
+
+                Uma da coisa que faço para me divertir e estudar Musica, a musica para mim, e de grande importancia, ja
+                que
+                ela
+                me alxiliou
+                na superação de uma faze dificil da minha vida, atualmente eu estudo contra baixo e teclado, mas no
+                futuo
+                pretendo aprender outros
+                instrumentos, nos momento em que, nao estou estudando musica, gosto muito de desenhar,ver um seria e
+                jogar
+                video
+                game, ou so ficar procrastinando no youtube.
+            </p>
+        </div>
+
+        <div class="container-foto">
+
+            <div class="bass">
+
+                <img src="./utils/bass.jpg">
+
+            </div>
+
+            <div class="teclado">
+
+                <img src="./utils/teclado.jpg">
+
+            </div>
+
+            <div class="desenho">
+
+                <img src="./utils/desenho.jpg">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+
     <div>
         <h2 class="subtitulo">Melhor Habilidade Persistência!</h2>
-              <p class="texto">Quando estava iniciando minha trajetória na área de música, recebi a oportunidade de participar
-            de uma banca,
-            que iria apresentar uma cantata de natal com um repertorio de 10 músicas. Ao receber a proposta não havia
-            notado
-            dificuldade que o repertório exigia, que no caso estava além do meu do meu nível. Foi me dito que teria o
-            prazo de
-            40 dias para aprender as musicas de forma excelente. Como já havia me comprometido a apresentar, resolvi
-            tentar mesmo
-            com as dificuldades e encarar como uma oportunidade de evoluir minhas habilidades.
-            Os dias recorrentes foram de muito trabalho duro e esforço, com longas horas de estudo e prática. Ao chegar
-            no ensaio
-            pude tocar todo o repertório sem muito esforço. Fui muito elogiado pelo maestro, já que ele sabia em que
-            ponto estava quando
-            recebi a proposta. Depois de muito trabalho duro, pude colher os frutos sendo convidado para muitos outros
-            trabalhos.
-              </p>
+
+             <p class="texto">Quando estava iniciando minha trajetória na área de música, recebi a oportunidade de participar
+                de uma banca,
+                que iria apresentar uma cantata de natal com um repertorio de 10 músicas. Ao receber a proposta não havia
+                notado
+                dificuldade que o repertório exigia, que no caso estava além do meu do meu nível. Foi me dito que teria o
+                prazo de
+                40 dias para aprender as musicas de forma excelente. Como já havia me comprometido a apresentar, resolvi
+                tentar mesmo
+                com as dificuldades e encarar como uma oportunidade de evoluir minhas habilidades.
+                Os dias recorrentes foram de muito trabalho duro e esforço, com longas horas de estudo e prática. Ao chegar
+                no ensaio
+                pude tocar todo o repertório sem muito esforço. Fui muito elogiado pelo maestro, já que ele sabia em que
+                ponto estava quando
+                recebi a proposta. Depois de muito trabalho duro, pude colher os frutos sendo convidado para muitos outros
+                trabalhos.
+             </p>
+
     </div>
 
 
 
-    <div>
-        <h2 class="subtitulo">Hards Skills</h2>
-                <ul class="texto">
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>Spring Boot</li>
-                    <li>JUnit</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>MySQL</li>
-                    <li>Postman</li>
-                    <li>Git e GitHub</li>
-                    <li>Scrum</li>
-                </ul>
+    <div class="container-hardSkills">
+        <h2 >Hards Skills</h2>
+
 
         <div class="skills">
+            <div >
+                 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white">
+            </div>
 
-            <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white">
-            <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+            <div >
+                <img src="./logo/javascript-logo-1.png">
+            </div>
+            
             <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
             <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
             <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
+            
             <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white">
             <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
             <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
@@ -226,8 +172,8 @@ class="container-cubo">
 
     <div>
         <h2 class="subtitulo">Soft Skills</h2>
-        <ul class="texto" >
-            <li >Persistência</li>
+        <ul class="texto">
+            <li>Persistência</li>
             <li>Responsabilidade pessoal</li>
             <li>Mentalidade de crescimento</li>
             <li>Orientação ao futuro</li>

@@ -1,0 +1,41 @@
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.hard {
+    background-color: aqua;
+}
+
+.container-hardSkills {
+    display: flex;  
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-hardSkills img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    justify-content: center;
+    -webkit-box-shadow: 3px 3px 10px 3px #c679fc;
+    -moz-box-shadow: 3px 3px 10px 3px #c679fc;
+    box-shadow: 3px 3px 10px 3px #c679fc;
+    
+}
+.container-hardSkills h2{
+    margin-bottom: 16px;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 100px;
+    background-color: #c679fc;
+    border-radius: 50px 50px 50px 50px ;
+    margin-right: 100px;
+    
+}

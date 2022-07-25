@@ -11,9 +11,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/contatoBg.css" rel="stylesheet" />
+    
     <link href="css/contatoFormulario.css" rel="stylesheet" />
     <link href="css/menu.css" rel="stylesheet"/>
+    
     <title>Document</title>
 </head>
 <body class="bg">
@@ -29,8 +30,8 @@
     
     <form class="contato">
         <label for="nome">Nome</label><br>
-        <input type="text" id = "nome">
-        <br>
+        <input type="text" id = "nome" >
+        <div id="txtNome"></div>
         <br>
         <label for="email">Email</label><br>
         <input type="email" id="email">
@@ -40,7 +41,9 @@
         <textarea name="mensagem" id="mensagem" cols="18" rows="5"></textarea>
         <br>
         <br>
-        <button>Enviar</button>
+        <button onclick =validacaoMensagem()>Enviar</button>
     </form>
+
+    <script src="./script/script.js" ></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.container-perfil{
+    display: flex;  
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    
+}
+
+.container-perfil p{
+    font-size: 15px;
+    background-color: #c679fc;
+    border-radius: 30px 30px 30px 30px;
+    padding:30px;
+    margin-left: 25%;
+    -webkit-box-shadow: 3px 3px 10px 3px #c679fc;
+    -moz-box-shadow: 3px 3px 10px 3px #c679fc;
+    box-shadow: 3px 3px 10px 3px #c679fc;
+    
+    
+}
+
+.container-perfil img{   
+    border-radius: 30px 30px 30px 30px ;
+    width: 200px;
+    -webkit-box-shadow: 3px 3px 10px 3px #c679fc;
+    -moz-box-shadow: 3px 3px 10px 3px #c679fc;
+    box-shadow: 3px 3px 10px 3px #c679fc;
+
+}
+
